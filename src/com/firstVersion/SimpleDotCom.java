@@ -1,3 +1,5 @@
+package com.firstVersion;
+
 public class SimpleDotCom {
 
     int[] locationCells;

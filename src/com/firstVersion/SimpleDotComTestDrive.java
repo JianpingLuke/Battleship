@@ -1,3 +1,7 @@
+package com.firstVersion;
+
+import com.firstVersion.SimpleDotCom;
+
 public class SimpleDotComTestDrive {
     public static void main(String[] args) {
         int numOfGuesses = 0;

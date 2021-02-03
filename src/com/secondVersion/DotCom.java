@@ -1,10 +1,17 @@
+package com.secondVersion;
+
 import java.util.ArrayList;
 
 public class DotCom {
     private ArrayList<String> locationCells;
+    private String name;
 
     public void setLocationCells(ArrayList<String> locs){
         locationCells = locs;
+    }
+
+    public void setName(String n){
+        this.name = n;
     }
 
     public String checkYourself(String userInput){
@@ -15,11 +22,11 @@ public class DotCom {
             locationCells.remove(index);
             if(locationCells.isEmpty()){
                 result = "kill";
+                System.out.println("Ouch! You sunk" + name + "  : ( ");
             }else {
                 result = "hit";
             }
         }
-//        System.out.println(result);
         return result;
     }
 }
